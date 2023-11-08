@@ -1,0 +1,73 @@
+.calc {
+    width: 293px;
+	background: white; 
+    padding: 15px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+	border-style: solid;
+    border-radius: 8px;
+	border-color: #807d7c;
+    position: relative;
+}
+
+p {
+    margin-bottom: 3px;
+	color: #1e1e24;
+    font-family: dimica;
+	font-size: 12pt;
+	text-align: right;
+}
+
+.history {	
+	text-align: right;
+}
+.phistory {	
+	height: 16px;
+}
+
+.poutput {
+	margin-top: 8px;
+    margin-bottom: -10px;
+	height: 55px;
+	width: 293px;
+	background: white;
+	color: #1e1e24;
+    font-family: dimica;
+    border-width: 0px;
+	font-size: 32pt;
+	text-align: right;
+}
+
+button {
+	height: 50px;
+	width: 70px;
+	color: #414f5b;
+    margin-top: 3px;
+    cursor: pointer;
+    font-family: dimica;
+    border-radius: 2px; 
+    border-width: 0px;
+	font-size: 14pt;
+}
+
+#btnClear {width: 218px;}
+
+.digit {
+	background: #1e1e24;
+	color: #f7ebe8;
+}
+.digit:hover { background: #3c3c42; }
+
+.action {
+	background: #625f5e;
+	color: #f7ebe8;
+}
+.action:hover { background: #807d7c; }
+
+.equal {
+	background: #e54b4b;
+	color: #1e1e24;
+}
+.equal:hover { background: #d13737; }
